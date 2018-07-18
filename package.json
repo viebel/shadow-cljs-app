@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "aws-sdk": "^2.276.1"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.4.22"
   }
 }

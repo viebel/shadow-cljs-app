@@ -3,7 +3,7 @@
           {:target     :browser
            :output-dir "resources/public/js/browser"
            :asset-path "/js/browser/"
-           :devtools   {:http-port       8025
+           :devtools   {:http-port       8029
                         :http-root       "resources/public/"
                         :ignore-warnings true}
            :modules    {:main {:entries [app.init]}}}}}
