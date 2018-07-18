@@ -1,0 +1,15 @@
+{:source-paths ["src/cljs"]
+ :builds {:browser
+          {:target     :browser
+           :output-dir "resources/public/js/browser"
+           :asset-path "/js/browser/"
+           :devtools   {:http-port       8025
+                        :http-root       "resources/public/"
+                        :ignore-warnings true}
+           :modules    {:main {:entries [app.init]}}}}}
+
+
+
+
+
+
