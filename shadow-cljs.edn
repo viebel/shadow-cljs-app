@@ -1,4 +1,5 @@
 {:source-paths ["src/cljs"]
+ :dependencies [[viebel/cljs-yaml "0.0.1"]]
  :builds {:browser
           {:target     :browser
            :output-dir "resources/public/js/browser"
